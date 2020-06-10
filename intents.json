@@ -1,0 +1,32 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "hey", "what's up?", "how's it going","How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, how may I assist you?", "Hey, is there anything I can help you with?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for contacting us!", "Have a nice day!", "Bye! Have a great day!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" , "What are your office hours?" , "When is the office open?", "Are you open today?"],
+         "responses": ["We're open every day 9am-9pm", "Our office hours are 9am-9pm every day"]
+        },
+        {"tag": "schedule",
+         "patterns": ["is Monday good at 5 pm?", "can I schedule an appointment?", "Do you have avalability on Tuesday?", "Can I schedule for Wednesday at 11am?", "Does thursday work at 1pm?", "Yes I want to schedule an appintment", "schedule for my back pain", "schedule appintment for my injury" ],
+         "responses": ["Lets get you set up! Please send me the date and time you want to schedule (in the format 'app First-Name Last-Name mm/dd/yyyy hh:mm am/pm' )"]
+        },
+        {"tag": "services",
+         "patterns": ["My back hurts", "my neck hurts", "do you guys do physical therapy for the back?" ],
+         "responses": ["We do physical therapy for all types of problems! We can schedule an appointment for you if you would like."]
+        },
+        {"tag": "exercise",
+         "patterns": ["exercise", "can i get some info on back pain", "can i get a list of things to do for my pain", "is there any exercise", "tips for pain", "exercise for pain", "information on back exercise i can do at home", "information about hand exercise i can do at home", "information about knee exercise i can do at home", "information about wrist exercise i can do at home", "neck exercises", "leg exercises"],
+         "responses": ["I can get you some resources that show exercises to help with that pain. Type 'info' and then the type of pain you're having. ex: 'info back pain'"]
+        }
+   ]
+}
